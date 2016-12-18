@@ -1,4 +1,4 @@
-function svgturkiyeharitasi() {
+function turkeymap() {
   $("#turkeymap path").hover(function() {
     $(".names").html("<div> City name : " + $(this).parent().data("cityname") + " </br> Plate code : "+ $(this).parent().data("platecode") + 
 	" </br> Phone code : "+ $(this).parent().data("phonecode") +"</div>");
